@@ -23,20 +23,20 @@ TMDB stands for The Movie Database. In this project we will be investigating the
 7. director: It tells the director of the movie.
 8. overview: It tells the overview of the plot of the movie.
 9. runtime: It tells the overall runtime of the movie in minutes
-10. gehres: It represents the genres the movie represents.
+10. genres: It represents the genres the movie represents.
 11. release_date: It tells the date of release of the movie.
-12. release_year: It tells the year in which the movie was released.
+12. release_year: It tells the year in which the movie was released. 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## This Project includes :
 
-- **Import Libraries :** The first step to import libraries that are required like numby, matplotlib, seaborn and pandas by writing code.
-- **Load Dataset :** Loaded TMDB Dataset through pandas read_csv code.
-- **Data Wrangling :** Ensured accuracy and consistency by removing null values and dublicate values, then derived significant columns for analysis.
-- **Data Analysis :** Inserted additional profit column and then splited one column to more columns.
-- **Data Interpretation :** Drag various qualitative informations through interpreting data.
+- **Import Libraries :** The first step to import libraries that are required like NumPy, matplotlib, seaborn and pandas by writing code.
+- **Load Dataset :** Loaded TMDB Dataset through pandas read csv code.
+- **Data Wrangling :** Ensured accuracy and consistency by removing null values and duplicate values, then derived significant columns for analysis.
+- **Data Analysis :** Inserted additional profit column and then split one column to more columns.
+- **Data Interpretation :** Drag various qualitative information through interpreting data.
 - **Data Visualization :** Through Seaborn library, constructed various visuals for clear understanding.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -107,7 +107,7 @@ TMDB stands for The Movie Database. In this project we will be investigating the
 <a><img src="https://github.com/Ritika821/TMDB-Movies-Python-Analysis/blob/main/Graphs/Profit%20vs%20Genre.png" height="200">
 </a></p>
 
-8. Adventure genre has the maximum populalirty i.e. 1.154259.
+8. Adventure genre has the maximum popularity i.e. 1.154259.
 
 <p align="center">
 <a><img src="https://github.com/Ritika821/TMDB-Movies-Python-Analysis/blob/main/Graphs/Genres%20vs%20Popularity.png" height="200">
@@ -160,7 +160,7 @@ TMDB stands for The Movie Database. In this project we will be investigating the
 
 ## Conclusion :
 
-This Report is helpful in gaining knowledge about the generation of movies after 1960, how film industry has developed itself that over time more and more movies were made per year. Starting at just 32 movies in 1960 up to 627 per year in 2015 with a max of 699 movies in 2014. From the given graphs in the project we can observe that revenue and profit developed almost in parallel untill the early 1980s. In the 1980s budget is increasing more sharply. Probably as a consequence the gap between revenue and profit is starting to emerge. At the end of the 1990s budget starts decreasing, probably due to technological progress, and therefore profit starts to increase again. We also found that Drama is the most common genre (17.6%) followed by Comedy (14.2%) and then Thriller (10.7%). Hence we can gather more information about the movies from this Report.
+This Report is helpful in gaining knowledge about the generation of movies after 1960, how film industry has developed itself that over time more and more movies were made per year. Starting at just 32 movies in 1960 up to 627 per year in 2015 with a max of 699 movies in 2014. From the given graphs in the project we can observe that revenue and profit developed almost in parallel until the early 1980s. In the 1980s budget is increasing more sharply. Probably as a consequence the gap between revenue and profit is starting to emerge. At the end of the 1990s budget starts decreasing, probably due to technological progress, and therefore profit starts to increase again. We also found that Drama is the most common genre (17.6%) followed by Comedy (14.2%) and then Thriller (10.7%). Hence we can gather more information about the movies from this Report.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
